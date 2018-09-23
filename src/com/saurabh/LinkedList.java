@@ -12,6 +12,8 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
 
     @Override
     public void remove(T data) {
+
+        this.size--;
        if (root.getData().equals(data)){
            removeFromTop();
        }else{

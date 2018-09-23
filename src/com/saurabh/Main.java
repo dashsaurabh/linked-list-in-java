@@ -33,6 +33,8 @@ public class Main {
         //testing removal from linked list
         intList.remove(2);
         intList.displayList();
+
+        System.out.println(intList.size());
     }
 
     static void testStringLinkedList(){
